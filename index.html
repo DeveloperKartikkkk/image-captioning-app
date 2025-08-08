@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Image Captioning App</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>AI tool for Image Captioning App</title>
+
+    <!-- CSS from public folder -->
+    <link rel="stylesheet" href="/styles.css">
+
+    <!-- Fonts & Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- JS from public folder (defer to load after HTML) -->
+    <script src="/script.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -36,9 +43,7 @@
                         <h3>Upload Your Image</h3>
                         <p>Drag and drop an image here or click to browse</p>
                         <input type="file" id="imageInput" accept="image/*" hidden>
-                        <button class="upload-btn">
-                            Choose File
-                        </button>
+                        <button class="upload-btn">Choose File</button>
                     </div>
                 </div>
             </div>
@@ -94,10 +99,8 @@
         </main>
 
         <footer class="footer">
-            <p>&copy; 2024 AI Image Captioning App. Powered by AI.</p>
+            <p>&copy; 2024 AI Image Captioning Kartik Apppp. Powered by AI.</p>
         </footer>
     </div>
-
-    <script src="script.js"></script>
 </body>
-</html> 
+</html>
